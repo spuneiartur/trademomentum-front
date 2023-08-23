@@ -1,0 +1,63 @@
+{
+  "name": "awesome-react-starter",
+  "version": "1.1.1",
+  "description": "The awesome React and Next.js starter project from Chess Coders",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node next/dev",
+    "build": "next build",
+    "start": "node next/start",
+    "export": "next build && next export",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "tailwindcss",
+    "starter"
+  ],
+  "author": "victorocna <victor@chesscoders.com> (https://chesscoders.com)",
+  "license": "MIT",
+  "engines": {
+    "npm": ">=7",
+    "node": ">=15 <=18"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.2",
+    "@tailwindcss/typography": "^0.5.4",
+    "accounting": "^0.4.1",
+    "autoprefixer": "^10.4.13",
+    "axios": "^0.27.2",
+    "date-fns": "^2.21.1",
+    "dotenv": "^16.0.1",
+    "downshift": "^6.1.12",
+    "formik": "^2.2.9",
+    "js-file-download": "^0.4.12",
+    "jsonwebtoken": "^9.0.0",
+    "merge-class-names": "^1.4.2",
+    "next": "^13.4.3",
+    "object-hash": "^3.0.0",
+    "pino": "^8.4.0",
+    "query-string": "^7.0.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-calendar": "^3.7.0",
+    "react-dom": "^18.2.0",
+    "react-google-recaptcha": "^2.1.0",
+    "react-hot-toast": "^2.4.0",
+    "react-query": "^3.39.2",
+    "redux": "^4.1.0",
+    "store2": "^2.14.2",
+    "tailwindcss": "^3.2.6",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.25.0",
+    "eslint-plugin-react": "^7.23.2",
+    "pino-pretty": "^4.7.1",
+    "postcss": "^8.4.21",
+    "prettier-plugin-tailwindcss": "^0.4.0"
+  }
+}
