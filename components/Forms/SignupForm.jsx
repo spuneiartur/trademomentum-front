@@ -18,8 +18,12 @@ const SignupForm = () => {
       onSubmit={handleSubmit}
     >
       <Form className="space-y-4">
-        <Fieldset name="name" label="Your name">
-          <Field id="name" name="name" as={Input} autoFocus />
+        <Fieldset name="lastName" label="Your last name">
+          <Field id="lastName" name="lastName" as={Input} autoFocus />
+        </Fieldset>
+
+        <Fieldset name="firstName" label="Your first name">
+          <Field id="firstName" name="firstName" as={Input} />
         </Fieldset>
 
         <Fieldset name="email" label="Your email">

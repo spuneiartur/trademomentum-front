@@ -3,10 +3,10 @@ import { axios, router, toaster } from '@lib';
 const signup = async (ref, data) => {
   try {
     // execute google recaptcha
-    data['g-recaptcha-response'] = await ref.current.executeAsync();
+    data['recaptchaResponse'] = await ref.current.executeAsync();
 
     // execute main action
-    await axios.post('signup', data);
+    await axios.post('/signup', data);
 
     // notify user and other actions
     toaster.success('Your account has been created');

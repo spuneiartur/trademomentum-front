@@ -1,7 +1,7 @@
 import { axios } from '@lib';
 
-const confirm = async (hash) => {
-  return await axios.post(`confirm/${hash}`);
+const confirm = async (token) => {
+  return await axios.post(`/signup/confirm/${token}`);
 };
 
 export default confirm;

@@ -8,6 +8,7 @@ const login = async (ref, data) => {
     data['g-recaptcha-response'] = await ref.current.executeAsync();
 
     const { token } = await axios.post('login', data);
+
     if (!decode(token)) {
       throw new Error('Error! We cannot log you in at the moment');
     }
