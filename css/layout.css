@@ -5,10 +5,11 @@
 .cover,
 .cover-error {
   background: no-repeat center center / cover fixed;
-  background-image: url('/images/cover.jpg');
-  background-color: #777;
+  /* background-image: url('/images/cover.jpg'); */
+  background-color: #FFDE00;
   background-blend-mode: multiply;
 }
+
 .cover-error {
   background-image: url('/images/error.jpg');
   background-color: #aaa;
@@ -17,12 +18,15 @@
 .flex-item {
   @apply my-1 mr-2;
 }
+
 .flex-item-lg {
   @apply my-2 mr-2;
 }
+
 .max-h-50 {
   max-height: 50vh;
 }
+
 .max {
   max-width: 1536px;
   margin: 0 auto;

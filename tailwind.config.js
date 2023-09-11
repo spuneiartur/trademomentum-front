@@ -3,9 +3,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#0F4C81',
-        secondary: '#53B0AE',
-        accent: '#F74371',
+        base: '#FFDE00',
+        primary: '#007BC8',
+        secondary: '#4FC47E',
+        accent: '#F0655D',
       },
       fontFamily: {
         display: 'Libre Baskerville, Arial, sans-serif',
